@@ -9,8 +9,10 @@ export const Route = createRootRoute({
         name: "description",
         content: "TanStack Router",
       },
+      {
+        title: "TanStack Router",
+      },
     ],
-    title: "TanStack Router",
   }),
   component: () => (
     <>
